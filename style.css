@@ -85,7 +85,7 @@ input::placeholder {
 .todos li {
   background-color: #fff;
   border-top: 1px solid #e5e5e5;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-size: 1.5rem;
   padding: 1rem 2rem;
   margin-top: 0.5rem;
@@ -103,4 +103,14 @@ small {
   margin-top: 3rem;
   text-align: center;
   font-size: 1.5rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i {
+  cursor: pointer;
 }
